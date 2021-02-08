@@ -58,4 +58,6 @@ def crossover(father, mother):
             offspring.append(mother[i])
     return offspring
 
-
+# 突然変異
+def mutation(offspring):
+    
